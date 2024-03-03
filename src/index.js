@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MyHooks from './hook_examples' 
 import reportWebVitals from './reportWebVitals';
 
 // create the react document object model (dom)
@@ -14,6 +15,9 @@ root.render(
 
     {/* use module named App imported in line 4*/}
     <App />
+    
+    {/* execute method MyHooks imported from file hooks:examples.js in line 5*/}
+    <MyHooks />
   </React.StrictMode>
 );
 
