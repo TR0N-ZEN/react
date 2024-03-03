@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// create the react document object model (dom)
+// which us used to create the html dom dynamically
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// render the react dom
 root.render(
   <React.StrictMode>
+
+    {/* use module named App imported in line 4*/}
     <App />
   </React.StrictMode>
 );
